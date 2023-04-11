@@ -1,11 +1,12 @@
-## My Project
+## Automating the provisioning of your Apache Airflow environments 
 
-TODO: Fill this README out!
+This repo contains code that support the Automating the provisioning of your Apache Airflow environments tutorial. It contains three folders:
 
-Be sure to:
+* mwaa-cdk - contains the AWS CDK stack to automate the configuration and deployment of Managed Workflow for Apache Airflow (MWAA) environments
+* mwaa-pipeline - contains the AWS CDK stack to build an automated pipeline to automate the deployment of workflows into your MWAA environments
+* mwaa-end2end - is a CDK stack that builds a full end to end, GitOps workflow for deploying MWAA environments and deploying workflows 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+You can find the tutorial [at this link here]()
 
 ## Security
 
