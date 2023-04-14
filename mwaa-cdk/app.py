@@ -8,7 +8,7 @@ from mwaa_cdk.mwaa_cdk_vpc import MwaaCdkStackVPC
 from mwaa_cdk.mwaa_cdk_dev_env import MwaaCdkStackDevEnv
 from mwaa_cdk.mwaa_cdk_prd_env import MwaaCdkStackPrdEnv
 
-env_EU=cdk.Environment(region="eu-west-2", account="704533066374")
+env_EU=cdk.Environment(region="eu-west-2", account="XXXXXXX")
 mwaa_props = {'dagss3location': 'mwaa-094459-devops-demo','mwaa_env' : 'mwaa-devops-demo', 'mwaa_secrets_var':'airflow/variables', 'mwaa_secrets_conn':'airflow/connections'}
 
 app = cdk.App()
