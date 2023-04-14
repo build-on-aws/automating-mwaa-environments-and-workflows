@@ -12,7 +12,7 @@ import aws_cdk as cdk
 
 from mwaairflow.mwaairflow_stack import MWAAirflowStack
 
-env_EU=cdk.Environment(region="eu-west-2", account="704533066374")
+env_EU=cdk.Environment(region="eu-west-2", account="XXXXXXX")
 
 app = cdk.App()
 MWAAirflowStack(
