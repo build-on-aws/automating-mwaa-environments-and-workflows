@@ -6,7 +6,7 @@ import aws_cdk as cdk
 
 from mwaa_pipeline.MWAAPipeline import MWAAPipeline
 
-env=cdk.Environment(region="eu-west-2", account="704533066374")
+env=cdk.Environment(region="eu-west-2", account="XXXXXXX")
 airflow_props = {'code_repo_name': 'mwaa-dags','branch_name' : 'main', 'dags_s3_bucket_name' : 'mwaa-094459-devops-demo-dev'}
 
 
